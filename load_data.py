@@ -8,11 +8,11 @@ def load_data(file_path):
     """
     try:
         df = pd.read_csv(file_path)
-        print("Columns : ", df.columns.tolist())
+        #print("Columns : ", df.columns.tolist())
         # print("Data Types : ", df.dtypes)
         # print("First 5 rows of the DataFrame:")
         # print(df.head())
-        print(df["decision_type"].unique())  # Print unique values in 'decision_type' column
+        #print(df["decision_type"].unique())  # Print unique values in 'decision_type' column
 
 
         return df

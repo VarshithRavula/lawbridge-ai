@@ -5,7 +5,14 @@ name = "pypi"
 
 [packages]
 transformers = "*"
+faiss-cpu = "==1.8.0.post1"
+numpy = "*"
+python-dotenv = "*"
+tiktoken = "*"
+openai = "*"
+scikit-learn = "*"
 pandas = "*"
+sentence-transformers = "*"
 
 [dev-packages]
 
